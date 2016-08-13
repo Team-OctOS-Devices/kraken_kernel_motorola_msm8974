@@ -3190,9 +3190,3 @@ config KERNEL_TEXT_MPU_PROT
           all masters; Write access is only permited to the
           secure world.
 
-config MSM_SLEEPER
-	bool "CPU hotplug driver"
-	default y
-	help
-	  CPU hotplug driver
-
